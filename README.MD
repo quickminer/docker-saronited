@@ -44,7 +44,7 @@ Please view [LICENSE](LICENSE)
 
 ## how to use:
 
-docker docker run --restart unless-stopped -d --name saronited -p 55445:55445 --mount type=bind,source=/media/datadisk/saronitedata,target=/saronitedata docker-saronited
+docker docker run --restart unless-stopped -d --name saronited -p 55445:55445 --mount type=bind,source=/media/datadisk/saronitedata,target=/saronitedata quickminer/saronited
 
 More details on source project:
 https://github.com/Saronite/saronite
